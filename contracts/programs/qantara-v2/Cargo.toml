@@ -1,0 +1,25 @@
+[package]
+name = "qantara-v2"
+version = "0.1.0"
+description = "Qantara payment protocol V2 - Scalable architecture"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "qantara_v2"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+default = []
+
+[dependencies]
+anchor-lang = "0.31.1"
+anchor-spl = "0.31.1"
+
+[workspace]
+resolver = "2"
+

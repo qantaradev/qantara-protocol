@@ -1,0 +1,26 @@
+{
+  "name": "qantara-contracts",
+  "version": "0.1.0",
+  "description": "Qantara smart contracts",
+  "scripts": {
+    "build": "anchor build",
+    "build:v2": "anchor build --program-name qantara-v2",
+    "test": "bash scripts/run-tests.sh",
+    "test:v2": "bash scripts/test-v2-only.sh",
+    "test:anchor": "anchor test",
+    "test:anchor:v2": "anchor test --skip-local-validator --skip-deploy",
+    "fund:test-accounts": "npx ts-node scripts/fund-test-accounts.ts",
+    "lint": "cargo clippy",
+    "clean": "anchor clean"
+  },
+  "devDependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.3.0"
+  }
+}
+
