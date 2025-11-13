@@ -56,12 +56,32 @@ anchor test
 
 Comprehensive documentation is available in the [`docs/`](./docs/) directory:
 
-- **[Getting Started](./docs/getting-started/installation.md)** - Installation and setup
+### Getting Started
+- **[Installation Guide](./docs/getting-started/installation.md)** - Complete setup instructions
+- **[Quick Start Guide](./docs/getting-started/quickstart.md)** - Get your first payment working in minutes
+
+### Architecture
 - **[Architecture Overview](./docs/architecture/overview.md)** - System design and components
-- **[API Integration](./docs/development/api-integration.md)** - API integration guide
-- **[Smart Contract Development](./docs/development/contracts.md)** - Building on the protocol
-- **[Security Guide](./docs/security/README.md)** - Security practices
-- **[Contributing](./CONTRIBUTING.md)** - How to contribute
+- **[Vault Architecture](./docs/architecture/vault-architecture.md)** - Detailed vault design
+- **[Payment Flow](./docs/architecture/payment-flow.md)** - Step-by-step payment process
+
+### API Integration
+- **[API Overview](./docs/api/overview.md)** - API introduction and quick start
+- **[Merchant API](./docs/api/merchant-api.md)** - Merchant registration and management
+- **[Payment API](./docs/api/payment-api.md)** - Payment quote and transaction building
+
+### Security
+- **[Security Overview](./docs/security/overview.md)** - Security architecture and best practices
+- **[Security Validations](./docs/security/validations.md)** - Detailed validation documentation
+
+### Development
+- **[Smart Contract Development](./docs/development/smart-contracts.md)** - Building and contributing to contracts
+
+### Integration
+- **[Integration Examples](./docs/integration/examples.md)** - Real-world integration examples
+
+### Contributing
+- **[Contributing Guide](./CONTRIBUTING.md)** - How to contribute to the project
 
 ## 🔐 Security
 
@@ -76,7 +96,7 @@ Qantara implements **8 comprehensive security validations**:
 7. ✅ Jupiter router allowlist
 8. ✅ Slippage protection
 
-See [Security Documentation](./docs/security/README.md) for details.
+See [Security Documentation](./docs/security/overview.md) for details.
 
 ## 🤝 Contributing
 
@@ -91,8 +111,9 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICE
 - **Documentation**: [docs/](./docs/)
 - **Smart Contract**: [contracts/](./contracts/)
 - **API Server**: [apps/api-server/](./apps/api-server/)
-- **Issues**: [GitHub Issues](https://github.com/qantara-protocol/qantara-protocol/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/qantara-protocol/qantara-protocol/discussions)
+- **Checkout UI**: [apps/checkout-ui/](./apps/checkout-ui/)
+- **Issues**: [GitHub Issues](https://github.com/qantaradev/qantara-protocol/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/qantaradev/qantara-protocol/discussions)
 
 ---
 
